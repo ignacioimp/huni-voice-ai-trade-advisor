@@ -1,0 +1,17 @@
+{
+  "format": "reference_only_not_vendor_export",
+  "agent_name": "Huni Voice – AI Trade Advisor",
+  "default_language": "es",
+  "additional_languages": [
+    "en"
+  ],
+  "voice_mode": "custom",
+  "voice_selection": "Choose available natural Spanish voice; Eric was shown in draft, final choice unverified",
+  "llm_selection": "Choose available low-latency model; DeepSeek Flash 4.1 was shown in draft, final selection unverified",
+  "target_max_conversation_seconds": 180,
+  "max_duration_verified": false,
+  "external_tools": [],
+  "system_prompt": "../prompts/system_prompt.md",
+  "first_message": "../prompts/first_message.md",
+  "analytics_status": "Proposed; live configuration not independently verified"
+}

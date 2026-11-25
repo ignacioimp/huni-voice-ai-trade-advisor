@@ -1,0 +1,22 @@
+{
+  "format": "reference_only_not_vendor_export",
+  "instructions": "Use pass, fail, or unknown according to evidence; map labels to supported platform settings. Do not treat unknown as success.",
+  "criteria": [
+    {
+      "identifier": "customer_understanding",
+      "prompt": "Evaluate whether the agent correctly understood the primary business objective without unsupported assumptions."
+    },
+    {
+      "identifier": "diagnostic_quality",
+      "prompt": "Evaluate whether the agent collected sufficient relevant information for a preliminary diagnostic."
+    },
+    {
+      "identifier": "accuracy",
+      "prompt": "Evaluate whether the agent avoided fabricating costs, regulations, tariffs, dates or operational capabilities."
+    },
+    {
+      "identifier": "actionable_outcome",
+      "prompt": "Evaluate whether the agent provided a clear and relevant next step and confirmed customer understanding."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "format": "reference_only_not_vendor_export",
+  "instructions": "Configure manually; use only conversation evidence, leave missing or ambiguous data unknown, and do not invent values.",
+  "fields": [
+    {
+      "identifier": "operation_type",
+      "type": "string",
+      "description": "Extract whether the customer wants to import or export."
+    },
+    {
+      "identifier": "product",
+      "type": "string",
+      "description": "Extract product description and intended use."
+    },
+    {
+      "identifier": "origin_country",
+      "type": "string",
+      "description": "Extract confirmed country of origin; do not infer from supplier location."
+    },
+    {
+      "identifier": "destination_country",
+      "type": "string",
+      "description": "Extract confirmed destination country."
+    },
+    {
+      "identifier": "quantity",
+      "type": "string",
+      "description": "Extract latest confirmed quantity and unit; respect corrections."
+    },
+    {
+      "identifier": "estimated_value",
+      "type": "string",
+      "description": "Extract explicitly supplied product value and currency."
+    },
+    {
+      "identifier": "supplier_status",
+      "type": "string",
+      "description": "Extract whether a supplier has been selected."
+    },
+    {
+      "identifier": "main_concern",
+      "type": "string",
+      "description": "Extract primary business concern."
+    },
+    {
+      "identifier": "missing_information",
+      "type": "string",
+      "description": "Identify information still required for the diagnostic."
+    },
+    {
+      "identifier": "recommended_next_step",
+      "type": "string",
+      "description": "Extract recommended next action."
+    },
+    {
+      "identifier": "diagnostic_completed",
+      "type": "boolean",
+      "description": "True only when key operational information and recommended next step were confirmed; false if incomplete; unknown if evidence unavailable."
+    }
+  ]
+}
